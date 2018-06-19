@@ -1,4 +1,4 @@
-FROM alpine
+FROM registry.cn-qingdao.aliyuncs.com/chenyou/alpine:1.0.0
 MAINTAINER mark www.linuxea.com
 ENV SPA /data/docker/svn
 RUN apk add --update subversion curl\
