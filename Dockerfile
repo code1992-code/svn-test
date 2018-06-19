@@ -1,5 +1,5 @@
 FROM registry.cn-qingdao.aliyuncs.com/chenyou/alpine:1.0.0
-MAINTAINER mark www.linuxea.com
+MAINTAINER ck 1779912327@qq.com
 ENV SPA /data/docker/svn
 RUN apk add --update subversion curl\
   && rm /var/cache/apk/* \
